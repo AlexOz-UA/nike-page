@@ -45,3 +45,41 @@ body{
     border: 1px solid #000000;
     filter: blur(100px);
 }
+
+@media only screen and (max-width: 600px)  {
+    .circle1 {
+        z-index: 1;
+        box-sizing: border-box;
+        position:absolute;
+        width: 334px;
+        height: 334px;
+        left: 40px;
+        top: 670px;
+        background: #e9eaec;
+        border: 1px solid #000000;
+        filter: blur(100px);
+    }
+    .circle2 {
+        z-index: 1;
+        box-sizing: border-box;
+        position:absolute;
+        width: 334px;
+        height: 334px;
+        left: -50px;
+        top: 30px;
+        background: #e9eaec;
+        border: 1px solid #000000;
+        filter: blur(100px);
+    }
+    .circle3 {
+        box-sizing: border-box;
+        position:fixed;
+        width: 334px;
+        height: 334px;
+        left: 1250px;
+        top: 500px;
+        background: #e9eaec;
+        border: 1px solid #000000;
+        filter: blur(100px);
+    }
+}
